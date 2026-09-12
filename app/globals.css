@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  /* Typography */
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+
+  /* Core palette — Minimalist Resume & CV */
+  --color-background: #faf9f5;
+  --color-surface: #ffffff;
+  --color-surface-bright: #faf9f5;
+  --color-surface-dim: #dbdad6;
+  --color-surface-variant: #e3e2df;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f4f4f0;
+  --color-surface-container: #efeeea;
+  --color-surface-container-high: #e9e8e4;
+  --color-surface-container-highest: #e3e2df;
+
+  --color-text: #141413;
+  --color-text-muted: #6e6e69;
+  --color-on-surface: #1b1c1a;
+  --color-on-surface-variant: #464742;
+  --color-on-secondary-container: #656463;
+
+  --color-primary: #000000;
+  --color-on-primary: #ffffff;
+  --color-secondary: #5f5e5d;
+  --color-on-secondary: #ffffff;
+  --color-surface-tint: #5f5e5d;
+
+  --color-border: #e5e5df;
+  --color-outline: #767872;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+  --shadow-elevated: 0 10px 25px -5px rgba(0, 0, 0, 0.05),
+    0 8px 10px -6px rgba(0, 0, 0, 0.02);
+}
+
+@theme inline {
+  --color-background: var(--background);
+}
+
+:root {
+  --background: #faf9f5;
+  --foreground: #141413;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #e5e2e0;
+  color: #141413;
+}
