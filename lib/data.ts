@@ -131,13 +131,13 @@ export const projects: Project[] = [
   {
     category: "Landing Page",
     meta: "Landing Page",
-    title: "Nova Studio, Photography",
-    image: "/nova.jpg",
+    title: "Paw Store, Pet Shop",
+    image: "/paw-store-2.jpg",
     description:
-      "Landing page untuk studio fotografi Nova Studio, menampilkan portofolio, layanan, dan informasi kontak dengan desain yang menarik dan responsif.",
+      "Landing page untuk toko hewan peliharaan Paw Store, menampilkan produk, layanan, dan informasi kontak dengan desain yang menarik dan responsif.",
     result: "+18.4% Konversi",
     cta: "Demo",
-    url: "https://nova-photography.netlify.app/",
+    url: "https://paw-store-ten.vercel.app/",
     kind: "chart",
   },
 ];

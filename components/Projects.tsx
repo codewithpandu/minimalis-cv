@@ -85,8 +85,8 @@ export function Projects() {
           >
             <div className="flex flex-col gap-4">
               <div className="relative flex h-44 w-full flex-col justify-between overflow-hidden rounded-xl bg-surface-container p-4">
-                <div className="flex items-center justify-between">
-                  <span className="rounded bg-surface px-2 py-1 font-mono text-[11px] font-medium text-text">
+                <div className="absolute z-10 flex items-center justify-between">
+                  <span className="rounded bg-surface-bright px-2 py-1 font-mono text-[11px] font-medium text-text">
                     {project.category}
                   </span>
                   <ArrowUpRight className="text-text-muted transition-colors group-hover:text-text" />
